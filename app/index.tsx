@@ -1,8 +1,8 @@
 import { View } from 'react-native';
 import { globalStyles } from '@/styles/global-styles';
+import { Colors } from '@/constants/Colors';
 import ThemeText from '@/components/ThemeText';
 import Button from '@/components/Button';
-import { Colors } from '@/constants/Colors';
 
 const CalculatorApp = () => {
     return (
