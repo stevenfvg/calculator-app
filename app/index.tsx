@@ -6,7 +6,7 @@ import Button from '@/components/Button';
 import { useCalculator } from '@/hooks/useCalculator';
 
 const CalculatorApp = () => {
-    const { formula, buildNumber } = useCalculator();
+    const { formula, buildNumber, clean, toggleSign, deleteLast } = useCalculator();
 
     return (
         <View style={globalStyles.CalculatorContainer}>
@@ -21,19 +21,19 @@ const CalculatorApp = () => {
                     label="C"
                     blackText
                     color={Colors.lightGray}
-                    onPress={() => null}
+                    onPress={clean}
                 />
                 <Button
                     label="+/-"
                     blackText
                     color={Colors.lightGray}
-                    onPress={() => null}
+                    onPress={toggleSign}
                 />
                 <Button
                     label="del"
                     blackText
                     color={Colors.lightGray}
-                    onPress={() => null}
+                    onPress={deleteLast}
                 />
                 <Button label="÷" color={Colors.orange} onPress={() => null} />
             </View>
