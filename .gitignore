@@ -35,4 +35,25 @@ yarn-error.*
 # typescript
 *.tsbuildinfo
 
+# Ignore image files with :Zone.Identifier in any location
+*.css:Zone.Identifier
+*.cjs:Zone.Identifier
+*.ico:Zone.Identifier
+*.mjs:Zone.Identifier
+*.MD:Zone.Identifier
+*.png:Zone.Identifier
+*.jpg:Zone.Identifier
+*.jpeg:Zone.Identifier
+*.js:Zone.Identifier
+*.js.flow:Zone.Identifier
+*.json:Zone.Identifier
+*.rb:Zone.Identifier
+*.svg:Zone.Identifier
+*.sass:Zone.Identifier
+*.ttf:Zone.Identifier
+*.txt:Zone.Identifier
+*.vue:Zone.Identifier
+*.woff:Zone.Identifier
+*.woff2:Zone.Identifier
+
 app-example
